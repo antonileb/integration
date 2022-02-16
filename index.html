@@ -5,38 +5,154 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Integration</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,600&display=swap" rel="stylesheet">
+    <title>My Batch</title>
 </head>
 <body>
-    <header id="header">
+    <header class="header">
         <div class="img_header"><a href="#"><img src="img_header1.svg" alt="img_profil"></a></div>
         <div class="img_header"><a href="#"><img src="img_header2.svg" alt="img_paramettre"></a></div>
     </header>
 
-    <main id="main">
-        <div class="my_batch">
-            <h4>MY BATCH</h4>
-            <h6>MENU SEMAINE 15</h6>
-        </div>
-        <div class="planning">
-            <ul>
-                <li><a href="#">L</a></li>
-                <li><a href="#">M</a></li>
-                <li><a href="#">M</a></li>
-                <li><a href="#">J</a></li>
-                <li><a href="#">V</a></li>
-                <li><a href="#">S</a></li>
-                <li><a href="#">D</a></li>
-                <li><a href="#"><img src="img_planning.svg" alt="modifier"></a></li>
-            </ul>
-            <a class="lien_planning" href="#">
-                <img src="img_planning2.svg" alt="+">
-                COMMERCER UNE NOUVELLE SEMAINE
-            </a>
-        </div>
+    <main class="main">
+        <section class="home">
+            <div class="block_my_batch">
+                <h4>MY BATCH</h4>
+                <h6>MENU SEMAINE 15</h6>
+            </div>
+            <div class="planning">
+                <ul>
+                    <li><a href="#">L</a></li>
+                    <li><a href="#">M</a></li>
+                    <li><a href="#">M</a></li>
+                    <li><a href="#">J</a></li>
+                    <li><a href="#">V</a></li>
+                    <li><a href="#">S</a></li>
+                    <li><a href="#">D</a></li>
+                    <li><a href="#"><img src="img_planning.svg" alt="modifier"></a></li>
+                </ul>
+                <a class="lien_planning" href="#">
+                    <img src="img_planning2.svg" alt="+">
+                    COMMERCER UNE NOUVELLE SEMAINE
+                </a>
+            </div>
+            <div class="block_mes_ingredients">
+                <h4>MES INGREDIENTS</h4>
+                <img src="img_ingredients.svg" alt="fourchette">
+            </div>
+            <div class="btn_conteneur">
+                <ul>
+                    <li class="btn_block">
+                        <a href="#">MON FRIGO
+                        <img src="img_frigo.svg" alt="frigo"></a>
+                    </li>
+                    <li class="btn_block">
+                        <a href="#">MES LISTES
+                        <img src="img_cadi.svg" alt="cadi"></a>
+                    </li>
+                    <li class="btn_block">
+                        <a href="#">MAGASINS
+                        <img src="img_shop.svg" alt="shop"></a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="menu">
+            <div class="block_menu_vegan">
+                <h6>MENU VEGAN</h6>
+            </div>
+            <div class="menu_conteneur">
+                <div class="menu_title">
+                    <h4>LUNDI</h4>
+                    <img src="img_crayon.svg" alt="crayon">
+                </div>
+                <div class="menu_text">
+                    <ul class="menu_text_list">
+                        <li>
+                            <ul class="recette">
+                                <li><h4>Crêpe pommes cannelle</h4></li>
+                                <li><div class="img_recette1"></div></li>
+                                <li><button>Voir recette</button></li>
+                                <li class="emotico_recette">
+                                    <img src="img_poubelle.svg" alt="poubelle">
+                                    <img src="img_coeur.svg" alt="coeur">
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul class="recette">
+                                <li><h4>Gratin de chou-fleur, brocolis et patate</h4></li>
+                                <li><div class="img_recette2"></div></li>
+                                <li><button>Voir recette</button></li>
+                                <li class="emotico_recette">
+                                    <img src="img_poubelle.svg" alt="poubelle">
+                                    <img src="img_coeur.svg" alt="coeur">
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul class="recette">
+                                <li><h4>Wellington farci et sauce au vin rouge</h4></li>
+                                <li><div class="img_recette3"></div></li>
+                                <li><button>Voir recette</button></li>
+                                <li class="emotico_recette">
+                                    <img src="img_poubelle.svg" alt="poubelle">
+                                    <img src="img_coeur.svg" alt="coeur">
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="menu_conteneur">
+                <div class="menu_title">
+                    <h4>MARDI</h4>
+                    <img src="img_crayon.svg" alt="crayon">
+                </div>
+                <div class="menu_text">
+                    <ul class="menu_text_list">
+                        <li>
+                            <ul class="recette">
+                                <li><h4>Rôti de tofu mijoté au sirop d’érable</h4></li>
+                                <li><div class="img_recette1"></div></li>
+                                <li><button>Voir recette</button></li>
+                                <li class="emotico_recette">
+                                    <img src="img_poubelle.svg" alt="poubelle">
+                                    <img src="img_coeur.svg" alt="coeur">
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul class="recette">
+                                <li><h4>Jackfruit en sauce barbecue et patates</h4></li>
+                                <li><div class="img_recette2"></div></li>
+                                <li><button>Voir recette</button></li>
+                                <li class="emotico_recette">
+                                    <img src="img_poubelle.svg" alt="poubelle">
+                                    <img src="img_coeur.svg" alt="coeur">
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul class="recette">
+                                <li><h4>Lentilles aux saucisses fumées</h4></li>
+                                <li><div class="img_recette3"></div></li>
+                                <li><button>Voir recette</button></li>
+                                <li class="emotico_recette">
+                                    <img src="img_poubelle.svg" alt="poubelle">
+                                    <img src="img_coeur.svg" alt="coeur">
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
     </main>
 
-    <footer id="footer">
+    <footer class="footer">
         <div class="img_footer"><a href="#"><img src="img_footer1.svg" alt="img_stat"></a></div>
         <div class="img_footer"><a href="#"><img src="img_footer2.svg" alt="img_home"></a></div>
         <div class="img_footer"><a href="#"><img src="img_footer3.svg" alt="img_article"></a></div>
