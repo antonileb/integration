@@ -222,22 +222,9 @@ html, body {
 }
 
 
-.img_recette1 {
+.img_recette1, .img_recette2, .img_recette3, .img_recette4, .img_recette5, .img_recette6  {
     width: 90px;
     height: 100px;
-    background: url("img_recette1.svg");
-}
-
-.img_recette2 {
-    width: 90px;
-    height: 100px;
-    background: url("img_recette2.svg");
-}
-
-.img_recette3 {
-    width: 90px;
-    height: 100px;
-    background: url("img_recette3.svg");
 }
 
 .recette h4 {
@@ -256,6 +243,26 @@ html, body {
     display: flex;
     justify-content: space-around;
     padding: 5px 0 5px 0;
+}
+
+.menu_lien {
+    padding: 10px;
+}
+
+.choix_menu {
+    width: 300px;
+}
+
+.block_choix_objectif {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    height: 40px;
+    border: 1px solid #F9F9F9;
+    border-radius: 15px 15px 0px 0px;
+    background-color: #F9F9F9;
+    color: #2AEAB1;
 }
 
 .footer {
