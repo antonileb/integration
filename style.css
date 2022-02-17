@@ -40,6 +40,7 @@ body {
 
 body {
     font-family: 'Poppins', sans-serif;
+    font-weight: bold;
 }
 
 html, body { 
@@ -57,6 +58,7 @@ html, body {
     width: 100%;
     top: 0;
     background-color: #39f0ad;
+    padding: 5px;
 }
 
 .header img {
@@ -71,19 +73,12 @@ html, body {
     margin-top: 100px;
 }
 
-.home {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 255px;
-}
 
 .block_my_batch {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100%;
     height: 75px;
     background-color: #F9F9F9;
     border: 1px solid #F9F9F9;
@@ -147,7 +142,6 @@ html, body {
     justify-content: center;
     align-items: center;
     gap: 5px;
-    width: 100%;
     height: 44px;
     background-color: #F9F9F9;
     border: 1px solid #F9F9F9;
@@ -193,7 +187,6 @@ html, body {
     margin-top: 85px;
     height: 68px;
     background: url("img_menu.svg");
-    border: 1px solid #F9F9F9;
     box-sizing: border-box;
     border-radius: 15px 15px 0px 0px;
 }
@@ -255,7 +248,7 @@ html, body {
 .emotico_recette {
     display: flex;
     justify-content: space-around;
-    padding: 5px 0 5px 0;
+    margin: 5px 0;
 }
 
 .menu_lien {
@@ -331,4 +324,113 @@ html, body {
     justify-content: space-around;
     align-items: flex-end;
     background-color: #9da5f1;
+    padding: 5px;
+}
+
+
+@media (min-width: 768px) {
+    .home {
+        width: 75%;
+    }
+
+    .menu, .choix_menu {
+        width: 85%;
+    }
+
+    .block_my_batch {
+        font-size: 22px;
+    }
+
+    .block_my_batch h6 {
+        font-size: 18px;
+    }
+    
+    .planning {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    .planning ul {
+        justify-content: center;
+        gap: 10px;
+    }
+
+
+    .planning ul li a {
+            width: 115px;
+            height: 115px;
+            font-size: larger;
+    }
+
+    .lien_planning {
+        font-size: large;
+        margin-top: 25px;
+    }
+
+    .block_mes_ingredients {
+        height: 60px;
+        font-size: larger;
+        gap: 15px;
+        margin: 45px 0 20px 0;
+    }
+
+    .btn_conteneur ul {
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .btn_block a {
+        width: 115px;
+        height: 115px;
+        font-size: 18px;
+        gap: 20px;
+    }
+
+    .block_menu_vegan {
+        background-size: cover;
+        height: 80px;
+    }
+
+    .block_menu_vegan h6 {
+        font-size: 28px;
+    }
+
+    .menu_conteneur_media {
+        display: flex;
+        gap: 10px;
+        margin-top: 10px;
+    }
+
+    .menu_title {
+        font-size: larger;
+        padding: 5px;
+    }
+
+    .recette h4 {
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+
+    .img_recette1, .img_recette2, .img_recette3, .img_recette4, .img_recette5, .img_recette6 {
+        width: auto;
+        height: auto;
+    }
+
+    .recette button {
+        font-size: 16px;
+        padding: 3px 6px;
+    }
+
+    .emotico_recette {
+        margin: 15px 0 10px 0;
+    }
+
+    .menu_lien {
+        text-align: center;
+        margin-top: 20px;
+        font-size: larger;
+    }
 }
