@@ -278,6 +278,8 @@ html, body {
 }
 
 .box_menu {
+    border: 1px solid #F9F9F9;
+    border-radius: 5%;
     font-size: 11px;
     color: rgb(68, 65, 65);
     background-color: #F9F9F9;
@@ -431,6 +433,38 @@ html, body {
     .menu_lien {
         text-align: center;
         margin-top: 20px;
+        font-size: larger;
+    }
+
+    .block_choix_objectif {
+        height: 60px;
+        font-size: larger;
+    }
+
+    .conteneur_menus {
+        justify-content: space-around;
+        gap: 0px;
+    }
+
+    .box_menu {
+        width: 150px;
+    }
+
+    .box_menu_text_title {
+        text-align: center;
+        font-size: large;
+    }
+
+    .box_menu_text li {
+        font-size: medium;
+    }
+
+    .btn_voir {
+        font-size: x-large;
+        margin-top: 25px;
+    }
+
+    .btn_creat {
         font-size: larger;
     }
 }
