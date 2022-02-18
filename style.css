@@ -61,6 +61,10 @@ html, body {
     padding: 5px;
 }
 
+.header_desktop {
+    display: none;
+}
+
 .header img {
     padding-top: 10px;
 }
@@ -200,6 +204,8 @@ html, body {
 .menu_conteneur {
     background-color: hsl(213, 71%, 87%);
     margin-top: 10px;
+    border: 1px solid transparent;
+    border-radius: 5%;
 }
 
 .menu_title {
@@ -406,23 +412,34 @@ html, body {
         margin-top: 10px;
     }
 
+
     .menu_title {
         font-size: larger;
         padding: 5px;
     }
 
+    .recette {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .emotico_recette {
+        width: 100%;
+    }
+
     .recette h4 {
         font-size: 18px;
         margin-bottom: 15px;
+        text-align: center;
     }
 
     .img_recette1, .img_recette2, .img_recette3, .img_recette4, .img_recette5, .img_recette6 {
         width: auto;
-        height: auto;
     }
 
     .recette button {
-        font-size: 16px;
         padding: 3px 6px;
     }
 
@@ -466,5 +483,103 @@ html, body {
 
     .btn_creat {
         font-size: larger;
+    }
+}
+
+@media (min-width: 1200px) {
+    .header {
+        display: none;
+    }
+
+    .header_desktop {
+        display: flex;
+        justify-content: space-around;
+        position: fixed;
+        width: 100%;
+        top: 0;
+        background-color: #39f0ad;
+        padding: 5px;
+    }
+
+    .img_header_basic, .img_header_desktop {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        width: 50%;
+    }
+
+    .home {
+        display: flex;
+        gap: 50px;
+    }
+
+    .home_article, .home_article2 {
+        width: 50%;
+    }
+
+    .home_article2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .block_mes_ingredients{
+        width: 80%;
+        height: 75px;
+        margin-top: 0;
+    }
+
+    .btn_conteneur{
+        width: 80%;
+    }
+
+    .btn_conteneur ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .btn_block{
+        width: 70%;
+    }
+
+    .btn_block a {
+        font-size: 26px;
+        width: 100%;
+    }
+
+    .block_menu_vegan h6 {
+        font-size: 32px;
+    }
+
+    .menu_conteneur_media {
+        justify-content: space-around;
+        gap: 0;
+    }
+
+    .menu_text_list li  {
+        width: 160px;
+    }
+
+    .img_recette1, .img_recette2, .img_recette3, .img_recette4, .img_recette5, .img_recette6 {
+        width: 100%;
+        height: auto;
+    }
+
+    .menu_lien {
+        font-size: 32px;
+    }
+
+    .box_menu {
+        width: 250px;
+    }
+
+    .end {
+        margin-bottom: 50px;
+    }
+
+    .footer {
+        display: none;
     }
 }
