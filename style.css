@@ -50,6 +50,11 @@ html, body {
     background-attachment: fixed;
 }
 
+img {
+    width: auto;
+    height: auto;
+}
+
 .header {
     display: flex;
     justify-content: center;
